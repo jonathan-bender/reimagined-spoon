@@ -1,9 +1,9 @@
 function [Area,Perimeter,Velocity,Beta] = GetParameters(mat)
 %GETPARAMETERS gets parameters for the crack
-Area = zeros(size(mat,3));
-Perimeter = zeros(size(mat,3));
-Velocity = zeros(size(mat,3));
-Beta = zeros(size(mat,3));
+Area = zeros(size(mat,3),1);
+Perimeter = zeros(size(mat,3),1);
+Velocity = zeros(size(mat,3),1);
+Beta = zeros(size(mat,3),1);
 
 Size = size(mat,1)*size(mat,2);
 
